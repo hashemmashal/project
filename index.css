@@ -56,39 +56,6 @@
     flex: 1;
 }
 
-.about-section {
-    display: flex;
-    align-items: center;
-    background-color: #f3f3f3c0;
-    padding: 50px 30px;
-}
-
-.link-to-book {
-    color: #ffffff;
-    display: block;
-    border: 2px solid #ffffff;
-    padding: 5px 10px;
-}
-
-a.link-to-book:hover {
-    background-color: #ffffff;
-    color: #95999e;
-    text-decoration: none;
-}
-
-.about-section p,
-.about-section h3 {
-    text-align: center;
-    width: 60%;
-    margin: auto;
-    font-family: 'Big Shoulders Text', cursive;
-    font-size: 1.8em;
-    text-transform: uppercase;
-}
-
-.carousel-inner {
-    height: 700px;
-}
 
 .row-flex {
     display: flex;
@@ -116,35 +83,15 @@ a.link-to-book:hover {
 .btn.btn-primary:hover {
     background-color: #747474;
 }
-.opening-time,
-.contact-adress {
-    flex: 1;
-    margin: 30px 20px;
-    font-size: 1.2em;
-}
-
 .form-group p {
     font-size: 1.2em;
 }
 
-.opening-time p span,
-.contact-adress p span {
-    display: block;
-}
 
 @media (min-width:577px) and (max-width: 800px) {
     
     .section-intro {
         height: 500px;
-    }
-    
-    .about-section p,
-    .about-section h3 {
-        font-size: 20px;
-    }
-    
-    .carousel-inner {
-        height: auto;
     }
     
     .row-flex {
@@ -158,22 +105,12 @@ a.link-to-book:hover {
         height: 300px;
     }
     
-    .about-section {
-        padding: 30px;
-    }
     
     .section-intro h1 {
         font-size: 2em;
     }
     
-    .about-section p,
-    .about-section h3 {
-        font-size: 15px;
-    }
     
-    .carousel-inner {
-        height: auto;
-    }
     
     .row-flex {
         display: flex;
@@ -189,11 +126,6 @@ a.link-to-book:hover {
         font-size: 15px;
     }
     
-    .opening-time p span,
-    .contact-adress p span {
-        font-size: 15px;
-        text-align: center;
-    }
     
 }
 
